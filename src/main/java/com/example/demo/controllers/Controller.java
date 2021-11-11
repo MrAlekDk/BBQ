@@ -7,13 +7,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @org.springframework.stereotype.Controller
 public class Controller {
 
-    JSONReader jsReader;
+    JSONReader jsReader = new JSONReader();
 
     @GetMapping("/")
     @ResponseBody
     public String getQuote() throws Exception {
-        jsReader = new JSONReader();
-        jsReader.damn();
-        return "yo";
+        return jsReader.getAllQuotes()[0].quote;
     }
 }
