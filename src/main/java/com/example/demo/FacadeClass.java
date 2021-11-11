@@ -1,7 +1,5 @@
 package com.example.demo;
 
-import com.example.demo.models.JSONReader;
-
 public class FacadeClass {
 
     JSONReader jsReader = new JSONReader();
