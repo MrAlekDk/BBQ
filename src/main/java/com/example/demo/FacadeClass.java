@@ -1,6 +1,6 @@
 package com.example.demo;
 
-public class FacadeClass {
+public class FacadeClass implements BBQFacade{
 
     JSONReader jsReader = new JSONReader();
     RandomNumber number = new RandomNumber();
