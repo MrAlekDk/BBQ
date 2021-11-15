@@ -1,5 +1,10 @@
 package com.example.demo;
 
+import com.example.demo.SubSystem1.JSONReader;
+import com.example.demo.SubSystem1.Quote;
+import com.example.demo.SubSystem2.RandomNumber;
+import com.example.demo.SubSystem3.QuoteBuilder;
+
 public class FacadeClass implements BBQFacade{
 
     JSONReader jsReader = new JSONReader();

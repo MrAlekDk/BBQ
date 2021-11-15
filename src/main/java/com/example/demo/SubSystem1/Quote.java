@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.SubSystem1;
 
 public class Quote {
     public String author;

@@ -1,4 +1,6 @@
-package com.example.demo;
+package com.example.demo.SubSystem3;
+
+import com.example.demo.SubSystem1.Quote;
 
 public class QuoteBuilder {
 
